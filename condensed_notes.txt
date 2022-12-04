@@ -1,0 +1,55 @@
+Condensed form of Financial Statement Book notes
+----
+
+INCOME STATEMENTS:
+
+- Gross Profit Margin
+..Any company with a gross profit margin above 40 percent tends to be good
+
+- SGA cost as a % of Gross Profit
+..30% or lower is great
+
+- Net Earnings
+..What is the trend?
+
+- Per share earnings
+..net income / total number of shares
+..Look at this for ten years
+
+BALANCE SHEETS:
+- 7 years of assets
+..One hit wonder? Or consistently up?
+
+- Cash over 7 years
+..Consistently up?
+
+- Receivables
+..lower ratio of net receivables to gross sales is better
+..means the company is more liquid
+
+- Return on Asset Ratio
+..net earnings / total assets
+..high number might be a vulnerability 
+
+- Asset total / Liability total
+..above 1 is good
+..below 1 is not
+..the higher the number, the more liquid the company is
+
+- Debt to Shareholders' ratio
+..liabilities / shareholders' equity
+..anything below .8 is probably good
+..shareholders' equity is assets - liabilities
+
+- Retained Earnings*****:
+..rate of growth (percent) for each year
+
+CASH FLOW STATEMENT:
+- Capital Expenditure
+..less is better
+..evaluate in relation to net earnings
+1. take sum of capital expenditure for 10 years
+2. divide by sum of net earnings for that same 10 years
+3. less than 50% is good
+4. less than 25% is excellent
+
