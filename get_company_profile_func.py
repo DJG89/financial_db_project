@@ -32,3 +32,16 @@ def get_company_profile():
 
 	print(tabulate(final_df, headers='keys', tablefmt = 'pretty'))
 	print("done. data collected for you to view\n\n")
+
+	message = '''
+	do you want to commit this info
+	to the database? y/n \n
+	'''
+
+	answer = input(message)
+
+	if answer == 'y':
+		conn = sqlite3.connect('fake_data.db')
+		c = conn.cursor()
+		final_df.to_sql('Company', conn, if_exists='append', index = False)
+

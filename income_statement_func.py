@@ -26,8 +26,8 @@ def get_income_statement():
 	print('..gathered data. printing to console..')
 	time.sleep(3)
 
-	my_list = ['calendarYear', 'symbol',
-	'revenue', 'grossProfitRatio',
+	my_list = ['symbol', 'calendarYear',
+	'revenue', 'grossProfit', 'grossProfitRatio',
 	'sellingGeneralAndAdministrativeExpenses', 'grossProfit',
 	'operatingExpenses',
 	'researchAndDevelopmentExpenses',
@@ -38,3 +38,16 @@ def get_income_statement():
 	income_statement_df = df[my_list]
 	print(tabulate(income_statement_df, headers='keys', tablefmt = 'pretty'))
 	print("done. data collected for you to view\n\n")
+
+	message = '''
+	do you want to commit this info
+	to the database? y/n \n
+	'''
+
+	answer = input(message)
+
+	if answer == 'y':
+		# commit data to db
+		conn = sqlite3.connect('fake_data.db')
+		c = conn.cursor()
+		income_statement_df.to_sql('Income_Statement', conn, if_exists='append', index = False)

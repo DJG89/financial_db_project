@@ -18,15 +18,15 @@ while True:
 
 	if initial_input == 'b':
 		get_balance_sheet()
-		break
+		continue
 
 	elif initial_input == 'i':
 		get_income_statement()
-		break
+		continue
 
 	elif initial_input == 'c':
 		get_company_profile()
-		break
+		continue
 
 	elif initial_input == 'q':
 		break
