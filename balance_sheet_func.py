@@ -52,6 +52,6 @@ def get_balance_sheet():
 		new_df_2 = new_df.copy()
 
 		# commit data
-		conn = sqlite3.connect('fake_data.db')
+		conn = sqlite3.connect('finance_data.db')
 		c = conn.cursor()
 		new_df_2.to_sql('Balance_Sheet', conn, if_exists='append', index = False)

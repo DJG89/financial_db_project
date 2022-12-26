@@ -48,6 +48,6 @@ def get_income_statement():
 
 	if answer == 'y':
 		# commit data to db
-		conn = sqlite3.connect('fake_data.db')
+		conn = sqlite3.connect('finance_data.db')
 		c = conn.cursor()
 		income_statement_df.to_sql('Income_Statement', conn, if_exists='append', index = False)

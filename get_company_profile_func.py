@@ -41,7 +41,7 @@ def get_company_profile():
 	answer = input(message)
 
 	if answer == 'y':
-		conn = sqlite3.connect('fake_data.db')
+		conn = sqlite3.connect('finance_data.db')
 		c = conn.cursor()
 		final_df.to_sql('Company', conn, if_exists='append', index = False)
 
